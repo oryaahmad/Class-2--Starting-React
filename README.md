@@ -26,3 +26,6 @@
 
 <h2> command to create a react app </h2>
 npx create-react-app "app name"
+
+<h2> command to create a react app </h2>
+class_2_starting_react.surge.sh
