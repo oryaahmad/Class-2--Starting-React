@@ -24,5 +24,5 @@
     </li>
 </ul>
 
-<h2> command to create a react app </h2>
+<h2> command to create a react app. </h2>
 npx create-react-app "app name"
