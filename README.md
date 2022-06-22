@@ -24,5 +24,13 @@
     </li>
 </ul>
 
+<<<<<<< HEAD
 <h2> command to create a react app. </h2>
 npx create-react-app "app name"
+=======
+<h2> command to create a react app </h2>
+npx create-react-app "app name"
+
+<h2> link to project </h2>
+<a>class_2_starting_react.surge.sh </a>
+>>>>>>> cdd9b6724cf6d3d9e51e343bdf4cc58b450a71f8
