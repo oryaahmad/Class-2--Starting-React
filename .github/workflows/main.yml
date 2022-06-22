@@ -43,4 +43,4 @@ jobs:
       # ./ is for current directory where our code is
         # then url and then token which we setup in github secrets 
       - name: deploying using surge
-        run: surge ./ class_2_starting_react.surge.sh --token ${{ secrets.CLASS_2_SECRET }}
+        run: surge ./build class_2_starting_react.surge.sh --token ${{ secrets.CLASS_2_SECRET }}
