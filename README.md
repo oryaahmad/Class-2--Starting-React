@@ -7,7 +7,7 @@
         Production build through yarn -> yarn build
     </li>
     <li>
-        github action workflow with environment and deploy on surge
+        github action workflow with setup of environment and deploy app on surge
     </li>
     <li>
         adding surge token as github secret
