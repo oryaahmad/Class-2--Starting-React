@@ -1,4 +1,18 @@
-
+#### Learning out come
+<ul>
+    <li>    
+        Creation of a react app
+    </li>
+    <li>
+        Production build through yarn -> yarn build
+    </li>
+    <li>
+        github action workflow with environment and deploy on surge
+    </li>
+    <li>
+        adding surge token as github secret
+    </li>
+</ul>
 <h1>
     create a new repository on the command line
 </h1>
@@ -28,3 +42,6 @@
 npx create-react-app "app name"
 
 <h2>link to project</h2>
+http://class_2_react_setup.surge.sh/
+
+
