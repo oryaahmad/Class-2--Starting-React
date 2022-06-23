@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.3.0
+        with:
+          node-version: 16
+          
+      - name: GitHub Action for Yarn
+        uses: Borales/actions-yarn@v3.0.0
+        with:
+          cmd: install 
+          
+      - name: creating build 
+        run: yarn build
+        
+      - name: installing surge
+        run: npm install -g surge
+        
+      - name: deploying on surge
+        run: surge ./build https://class_2_react_setup.surge.sh/ --token &{{ secrets.CLASS_2_SECRET }}
+
