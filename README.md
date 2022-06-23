@@ -12,6 +12,9 @@
     <li>
         adding surge token as github secret
     </li>
+    <li>
+        CICD
+    </li>
 </ul>
 <h1>
     create a new repository on the command line
